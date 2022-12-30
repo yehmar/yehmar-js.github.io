@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shopaholic | Shoppng Cart project</title>
+    <meta name="description" content="Shopaholic - Shoppng Cart project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="icons/favicon.png">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;800&amp;display=swap">
+
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+  <body>
+    <div class="d-none">
+      <svg width="0" height="0" class="hidden">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="envelope-1">
+          <title>Envelope</title>
+          <desc>A line styled icon from Orion Icon Library.</desc>
+          <path data-name="layer2" fill="none" stroke="#202020" stroke-miterlimit="10" d="M2 12l30 27.4L62 12" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+          <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10" d="M2 12h60v40H2z" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+        </symbol>
+
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="helpline-24h-1">
+          <title>Helpline 24h</title>
+          <desc>A line styled icon from Orion Icon Library.</desc>
+          <path data-name="layer2" d="M52.3 48.8c1.2.8 3 1.9 2.7 4.3S51 62 43 62s-17.7-6.3-26.2-14.8S2 28.9 2 21 9 9.3 10.9 9s3.6 1.5 4.3 2.7l6 9.2a4.3 4.3 0 0 1-1.1 5.8c-2.6 2.1-6.8 4.6 2.9 14.3s12.3 5.4 14.3 2.9a4.3 4.3 0 0 1 5.8-1.1z" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+          <path data-name="layer1" fill="none" stroke="#202020" stroke-miterlimit="10" d="M54 2l-6 14h14m-4-6v12m-14 0H32l8.5-10v-.2A6 6 0 0 0 32 3.6" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+        </symbol>
+
+        <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="map-marker-1">
+          <title>Map Marker</title>
+          <desc>A line styled icon from Orion Icon Library.</desc>
+          <path d="M43.2 48.1l-7.2-4L18 52 2 44.1V4l16 7.9L36 3l18 8.9v20.3M36 44.1V3M18 52V11.9" stroke-miterlimit="10" stroke="#202020" fill="none" data-name="layer2" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+          <path stroke-miterlimit="10" stroke="#202020" fill="none" d="M52 32a10 10 0 0 0-10 10c0 9 10 19 10 19s10-10 10-19a10 10 0 0 0-10-10z" data-name="layer1" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></path>
+          <circle stroke-miterlimit="10" stroke="#202020" fill="none" r="3" cy="42" cx="52" data-name="layer1" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--layer1, #202020)"></circle>
+        </symbol>
+
+      </svg>
+    </div>
+    <!-- page-holder -->
+    <div>
+      <!-- navbar-->
+      <header class="bg-white">
+        <!-- container -->
+        <div class="container px-lg-3">
+          <nav class="navbar navbar-expand navbar-light py-3 px-lg-0">
+            <!-- navbar-brand -->
+            <a href="index.html" class="navbar-brand"><span class="fw-bold text-uppercase text-dark">Shopaholic</span></a>
+            <!-- navbar-toggler -->
+
+            <button class="navbar-toggler" type="button"><span class="navbar-toggler-icon"></span></button>
+            
+            <div class="navbar-collapse collapse">
+              <!-- navbar-nav -->
+              <ul class="navbar-nav me-auto">
+                <!-- nav-item -->
+                <li class="nav-item">
+                  <!-- nav-link-->
+                  <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                  <!-- Link--><a href="shop.html" class="nav-link">Shop</a>
+                </li>
+                <li>
+                  <!-- Link--><a href="contact.html" class="nav-link">Contact</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ms-auto">               
+                <li class="nav-item">
+                  <a href="cart.html" class="nav-link"><i class="fas fa-dolly-flatbed me-1 text-gray"></i>Cart<small class="text-gray fw-normal">(0)</small></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      
+      <!-- HERO SECTION-->
+      <div class="container">
+        <!-- Hero Section-->
+    <section class="py-5 bg-light">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-9 order-2 order-lg-1">
+            <h1>Contact</h1>
+          </div>
+          <div class="col-lg-3 text-end order-1 order-lg-2">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb py-4 justify-content-lg-end mb-0">
+                <li class="breadcrumb-item"><a class="text-dark" href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Contact</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact page-->
+    <section class="py-5">
+      <div class="container py-5">
+        <header class="mb-5 pb-4">
+          <p class="lead">
+            Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built party world. Of so am
+            he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
+          </p>
+        </header>
+        <div class="row">
+          <div class="col-md-4">
+            <svg class="svg-icon mb-4 text-primary svg-icon-big svg-icon-light">
+              <use xlink:href="#map-marker-1"> </use>
+            </svg>
+            <h3>Address</h3>
+            <p>13/25 New Avenue<br>New Heaven, 45Y 73J<br>England, <strong>Great Britain</strong></p>
+          </div>
+          <div class="col-md-4">
+            <svg class="svg-icon mb-4 text-primary svg-icon-big svg-icon-light">
+              <use xlink:href="#helpline-24h-1"> </use>
+            </svg>
+            <h3>Call center</h3>
+            <p>This number is toll free if calling from Great Britain otherwise we advise you to use the electronic form of communication.</p>
+            <p><strong>+33 555 444 333</strong></p>
+          </div>
+          <div class="col-md-4">
+            <svg class="svg-icon mb-4 text-primary svg-icon-big svg-icon-light">
+              <use xlink:href="#envelope-1"> </use>
+            </svg>
+            <h3>Electronic support</h3>
+            <p>Please feel free to write an email to us or to use our electronic ticketing system.</p>
+            <ul class="list-unstyled">
+              <li><strong class="fw-bold"><a href="mailto:">info@fakeemail.com</a></strong></li>
+              <li><strong class="fw-bold"><a href="#">
+                    Ticketio - our ticketing support platform</a></strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="map">                                       </div>
+    <section class="py-5">
+      <div class="container py-5">
+        <header class="mb-5">
+          <h2>Contact form</h2>
+        </header>
+        <div class="row">
+          <div class="col-md-7">
+            <form class="custom-form form" id="contact-form" method="post" action="contact.php">
+              <div class="row gy-3">
+                <div class="col-sm-6">
+                  <label class="form-label" for="name">Your firstname *</label>
+                  <input class="form-control" type="text" name="name" id="name" placeholder="Enter your firstname" required="required">
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="surname">Your lastname *</label>
+                  <input class="form-control" type="text" name="surname" id="surname" placeholder="Enter your  lastname" required="required">
+                </div>
+                <div class="col-sm-12">
+                  <label class="form-label" for="email">Your email *</label>
+                  <input class="form-control" type="email" name="email" id="email" placeholder="Enter your  email" required="required">
+                </div>
+                <div class="col-sm-12">
+                  <label class="form-label" for="message">Your message for us *</label>
+                  <textarea class="rounded form-control" rows="4" name="message" id="message" placeholder="Enter your message" required="required"></textarea>
+                </div>
+                <div class="col-sm-12">
+                  <button class="btn btn-primary" type="submit">Send message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <p>Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed. </p>
+            <p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
+            <ul class="list-inline">
+              <li class="list-inline-item mr-2"><a class="reset-anchor text-primary" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item mr-2"><a class="reset-anchor text-primary" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item mr-2"><a class="reset-anchor text-primary" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item mr-2"><a class="reset-anchor text-primary" href="#" target="_blank"><i class="fab fa-behance"></i></a></li>
+              <li class="list-inline-item mr-2"><a class="reset-anchor text-primary" href="#" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+        
+      </div>
+
+      <!-- footer -->
+      <footer class="bg-dark text-white">
+        <div class="container py-4">
+          <div class="row py-5">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <h6 class="text-uppercase mb-3">Customer services</h6>
+              <ul class="list-unstyled mb-0">
+                <li><a class="footer-link" href="#!">Help &amp; Contact Us</a></li>
+                <li><a class="footer-link" href="#!">Returns &amp; Refunds</a></li>
+                <li><a class="footer-link" href="#!">Online Stores</a></li>
+                <li><a class="footer-link" href="#!">Terms &amp; Conditions</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <h6 class="text-uppercase mb-3">Company</h6>
+              <ul class="list-unstyled mb-0">
+                <li><a class="footer-link" href="#!">What We Do</a></li>
+                <li><a class="footer-link" href="#!">Available Services</a></li>
+                <li><a class="footer-link" href="#!">Latest Posts</a></li>
+                <li><a class="footer-link" href="#!">FAQs</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h6 class="text-uppercase mb-3">Social media</h6>
+              <ul class="list-unstyled mb-0">
+                <li><a class="footer-link" href="https://www.twitter.com" target="_blank" title="Twitter" rel="nofollow"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a class="footer-link" href="https://www.instagram.com" target="_blank" title="Instagram" rel="nofollow"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a class="footer-link" href="https://www.facebook.com" target="_blank" title="Facebook" rel="nofollow"><i class="fab fa-facebook"></i> Facebook</a></li>
+              </ul>
+            </div>
+
+
+          </div>
+          <div class="border-top pt-4" style="border-color: #1d1d1d !important">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start">
+                <p class="small text-muted mb-0">© 2022 All rights reserved.</p>
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <p class="small text-muted mb-0">Template designed by <a class="text-white reset-anchor" href="#">Shopaholic</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+    
+    </div>
+    
+      <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+      <script type="text/javascript">
+        document.querySelector('.navbar-toggler').addEventListener('click', function(){
+          document.querySelector('.collapse').classList.toggle('show');
+        });
+      </script>
+  </body>
+
+</html>
